@@ -17,6 +17,8 @@ Stabilization of the images will help in the process of “stacking” the image
 
 Because if this extension what I want out of the model is a translation vector per frame, not the typical adjusted image, though that will help in quickly analyzing the performance of the model.
 
+The notebooks attempt to show side by side camparison of video streams, to get a more accurate feel for the degree of stabalization. To acheive this the video must be MP4 using the H264 codec. Currently I use ffmpeg to convert the opencv based MPV4 video to H264. I may be able to get around this by installing the H264 Codec (OpenCV doesn't have it in by default due to licensing differences).
+
 ## Setup
 
 Current assumptions about using notebooks:

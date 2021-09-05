@@ -130,3 +130,10 @@ dmypy.json
 
 # ML Engineering
 Data/
+
+# Project Specific Ignores
+DUTPretrained/
+ffmpeg-*/
+*.mp4
+*.JPG
+*.tar.xz
