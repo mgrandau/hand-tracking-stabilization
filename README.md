@@ -19,6 +19,10 @@ Because if this extension what I want out of the model is a translation vector p
 
 The notebooks attempt to show side by side camparison of video streams, to get a more accurate feel for the degree of stabalization. To acheive this the video must be MP4 using the H264 codec. Currently I use ffmpeg to convert the opencv based MPV4 video to H264. I may be able to get around this by installing the H264 Codec (OpenCV doesn't have it in by default due to licensing differences).
 
+```bash
+git clone --recursive https://github.com/mgrandau/hand-tracking-stabilization.git
+```
+
 ## Setup
 
 Current assumptions about using notebooks:
