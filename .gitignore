@@ -137,3 +137,4 @@ ffmpeg-*/
 *.mp4
 *.JPG
 *.tar.xz
+input/frames/
