@@ -1,3 +1,6 @@
 [submodule "DUTCode"]
 	path = DUTCode
 	url = https://github.com/mgrandau/DUTCode.git
+[submodule "hand-tracking-stabilization-ui"]
+	path = hand-tracking-stabilization-ui
+	url = https://github.com/mgrandau/hand-tracking-stabilization-ui.git
